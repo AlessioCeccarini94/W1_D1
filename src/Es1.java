@@ -21,8 +21,6 @@ public class Es1 {
         System.out.println(str+sum);
 
 
-        String[] arr =new String [5];
-        String newElement = "new string";
-        String[] newArr = new String[6];
+        return arr2;
     }
 }
