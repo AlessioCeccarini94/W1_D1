@@ -7,4 +7,19 @@
 //Scrivere un main che utilizzi in sequenza i tre metodi chiedendo l'input dei dati all'utente
 
 public class Es3 {
+    public static void main(String[] args){
+        double n1=10.5;
+        double n2=15.7;
+        double sum=n1*2+n2*2;
+        System.out.println(sum);
+
+        int odd =3;
+        int even=8;
+        int sum2=even%2;
+        int sum3=odd%2;
+        System.out.println(sum2);
+        System.out.println(sum3);
+
+        
+    }
 }
