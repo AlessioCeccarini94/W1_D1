@@ -10,8 +10,10 @@ public class Es2 {
         String str1= sc.nextLine();
         String str2= sc.nextLine();
         String str3= sc.nextLine();
+
         String completeString=str1+str2+str3;
         String reverseString=str3+str2+str1;
+
         System.out.println(completeString);
         System.out.println(reverseString);
     }
