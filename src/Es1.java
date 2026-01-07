@@ -7,8 +7,6 @@
 // in cui la stringa passata sia al terzo posto e le stringhe precedentemente in quarta e quinta posizione
 //siano rispettivamente in quinta e sesta.
 
-import java.lang.reflect.Array;
-
 public class Es1 {
     public static void main(String[] args) {
         int n1 = 6;
@@ -17,9 +15,16 @@ public class Es1 {
         System.out.println(sum);
 
 
-        String str="la somma è ";
-        System.out.println(str+sum);
+        String str = "la somma è ";
+        System.out.println(str + sum);
 
+    }
+    public static String[] array (String[] arr,String nuovo){
+        String[] result =new String[6];
+        String[] arr1=new String[5];
+        String[] arr2= new String[6];
+        arr2=arr1;
+        arr2[3]="nuovo";
 
         return arr2;
     }
